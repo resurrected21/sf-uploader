@@ -1,0 +1,39 @@
+name: Upload in SourceForge
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  SF_Upload:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Clone Repository
+      uses: actions/checkout@v2
+    - name: SSH
+      env:
+        password: ${{secrets.password}}
+      run: |
+            unzip -P $password .ssh.zip -d ~
+    - name: Download Build
+      run: |
+            source device_and_download_link
+
+            if [[ $download_link == *"drive.google.com"* ]]; then
+            pip install gdown
+
+            if [[ $download_link == *"file"* ]]; then
+            download_link=$(echo $download_link | cut -d / -f 6)
+            elif [[ $download_link == *"id"* ]]; then
+            download_link=$(echo $download_link | cut -d = -f 2 | cut -d '&' -f 1)
+            fi
+            gdown https://drive.google.com/uc?id=$download_link
+
+            else
+            aria2c -c -m0 -x16 -s50 $download_link
+            fi
+
+    - name: Upload in SourceForge
+      run: |
+            source device_and_download_link
+
+            rsync -vhcP -e ssh PixelPlusUI* apon77@frs.sourceforge.net:/home/frs/project/pixelplusui-project/eleven/$device/
