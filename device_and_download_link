@@ -1,5 +1,5 @@
 #device is the folder where rom will be uploaded in sourceforge, like "mido" or "RMX1851"
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
-device="mido"
-download_link="https://roms.apon77.workers.dev/junk/PixelPlusUI_3.4_mido-11.0-20210416-1552-OFFICIAL.zip"
+device="drg_sprout"
+download_link="https://drive.google.com/u/0/open?id=1J_Sfnxe_aJvN0PbI8kaq-qimR6X9NgNO"
