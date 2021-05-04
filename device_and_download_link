@@ -1,5 +1,5 @@
 #device is the folder where rom will be uploaded in sourceforge, like "mido" or "RMX1851"
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
-device="drg_sprout"
-download_link="https://drive.google.com/u/0/open?id=1J_Sfnxe_aJvN0PbI8kaq-qimR6X9NgNO"
+device="phoenix"
+download_link="https://download.goindi.org/Kunal/phoenix/Official/PixelPlusUI_3.4_phoenix-11.0-20210503-1641-OFFICIAL.zip"
