@@ -24,9 +24,10 @@ jobs:
             if [[ $download_link == *"file"* ]]; then
             download_link=$(echo $download_link | cut -d / -f 6)
             elif [[ $download_link == *"id"* ]]; then
-            download_link=$(echo $download_link | cut -d = -f 2 | cut -d '&' -f 1)
+            download_link1=$(echo $download_link | cut -d = -f 2 | cut -d '&' -f 1)
+            download_link2=$(echo $download_link | cut -d = -f 4)
             fi
-            gdown https://drive.google.com/uc?id=$download_link
+            gdown https://drive.google.com/uc?id=$download_link1 || gdown https://drive.google.com/uc?id=$download_link2
 
             else
             aria2c -c -m0 -x16 -s50 $download_link
