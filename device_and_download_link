@@ -1,5 +1,5 @@
 #device is the folder where rom will be uploaded in sourceforge, like "mido" or "RMX1851"
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
-device="Realme5_Series"
-download_link="https://testing.bunny.workers.dev/0:/%E2%9A%A1%EF%B8%8FDownloads%E2%9A%A1%EF%B8%8F/PixelPlusUI_3.4_r5x-11.0-20210503-1759-OFFICIAL.zip"
+device="violet"
+download_link="https://drive.google.com/u/1/uc?export=download&confirm=i6NW&id=1Q-C_II0PTm3VYlbtwRwkf130LweI_-YM"
