@@ -2,4 +2,4 @@
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
 device="m1852"
-download_link=":https://drive.google.com/u/0/uc?export=download&confirm=9LKk&id=10z-m3YANLuDqMypctKRrkLxFz_pV7-Cp"
+download_link="https://drive.google.com/u/0/uc?export=download&confirm=9LKk&id=10z-m3YANLuDqMypctKRrkLxFz_pV7-Cp"
