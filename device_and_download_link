@@ -1,5 +1,5 @@
 #device is the folder where rom will be uploaded in sourceforge, like "mido" or "RMX1851"
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
-device="ysl"
-download_link="https://m.mark41stark.workers.dev/0://PixelPlusUI_3.5_ysl-11.0-20210512-1512-OFFICIAL.zip"
+device="beryllium"
+download_link="https://uploads.xeo.workers.dev/1:/PixelPlusUI_3.5_beryllium-11.0-20210513-0842-OFFICIAL.zip"
