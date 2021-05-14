@@ -1,5 +1,5 @@
 #device is the folder where rom will be uploaded in sourceforge, like "mido" or "RMX1851"
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
-device="surya"
-download_link="https://drive.google.com/u/0/uc?export=download&confirm=LuyI&id=1O0__SW3yc3C-wtiprZCGdruvDL789rfp"
+device="land"
+download_link="https://drive.google.com/u/0/uc?export=download&confirm=jtAu&id=1g3DgKhaKkJLo_-DuHqySzC22A_GzRvUX"
