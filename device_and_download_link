@@ -2,4 +2,4 @@
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
 device="jasmine_sprout"
-download_link="https://drive.google.com/uc?id=1qSjc5vP5uJveuIEVEjC8idkEyMyzOktR&export=download"
+download_link="https://drive.google.com/u/0/uc?export=download&confirm=m2-c&id=1qSjc5vP5uJveuIEVEjC8idkEyMyzOktR"
