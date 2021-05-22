@@ -2,4 +2,4 @@
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
 device="shiva"
-download_link="https://drive.google.com/u/0/uc?export=download&confirm=_poh&id=1CEOkivAnemcHvmRgxZTjW1-3F9fi1UaR"
+download_link="https://cheems.mirrorbomt.workers.dev/0:/PixelPlusUI_3.5_shiva-11.0-20210521-2301-OFFICIAL.zip"
