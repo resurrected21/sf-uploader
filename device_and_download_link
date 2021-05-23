@@ -1,5 +1,5 @@
 #device is the folder where rom will be uploaded in sourceforge, like "mido" or "RMX1851"
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
-device="merlin"
-download_link="https://cheems.mirrorbomt.workers.dev/0:/PixelPlusUI_3.5_merlin-11.0-20210523-0725-OFFICIAL.zip"
+device="RMX1941"
+download_link="https://cheems.mirrorbomt.workers.dev/0:/PixelPlusUI_3.5_RMX1941-11.0-20210523-0449-OFFICIAL.zip"
