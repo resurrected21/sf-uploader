@@ -1,5 +1,5 @@
 #device is the folder where rom will be uploaded in sourceforge, like "mido" or "RMX1851"
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
-device="ginkgo"
-download_link="https://drive.google.com/u/0/uc?export=download&confirm=BdCz&id=1vabgSfhjblHz0jy7UDwRmP9aYI3VtZ4m"
+device="RMX2151"
+download_link="https://mirrorbot.thecloverly.workers.dev/0://PixelPlusUI_3.5_RMX2151-11.0-20210526-1040-OFFICIAL.zip"
