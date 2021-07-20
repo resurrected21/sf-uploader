@@ -2,4 +2,4 @@
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
 device="laurel_sprout"
-download_link="https://download.ppui.site/eleven/laurel_sprout/A11_PixelPlusUI_3.7_laurel_sprout-11.0-20210710-1730-OFFICIAL.zip"
+download_link="https://download.ppui.site/eleven/laurel_sprout/PixelPlusUI_3.7_laurel_sprout-11.0-20210710-1513-OFFICIAL.zip"
