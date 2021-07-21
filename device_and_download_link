@@ -1,5 +1,5 @@
 #device is the folder where rom will be uploaded in sourceforge, like "mido" or "RMX1851"
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
-device="ginkgo"
-download_link="https://download.ppui.site/eleven/ginkgo/PixelPlusUI_3.7_ginkgo-11.0-20210710-0235-OFFICIAL.zip"
+device="begonia"
+download_link="https://download.ppui.site/eleven/begonia/PixelPlusUI_3.7_begonia-11.0-20210708-1640-OFFICIAL.zip"
