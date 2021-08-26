@@ -1,5 +1,5 @@
 #device is the folder where rom will be uploaded in sourceforge, like "mido" or "RMX1851"
 #download_link is the link from where script will download the build and upload that file in sourceforge. Put link inside that ""
 
-device="violet"
-download_link="https://download.ppui.site/eleven/violet/PixelPlusUI_3.8_violet-11.0-20210809-1053-OFFICIAL.zip"
+device="tissot"
+download_link="https://download.ppui.site/eleven/tissot/PixelPlusUI_3.8_tissot-11.0-20210810-0615-OFFICIAL.zip"
